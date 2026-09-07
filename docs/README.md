@@ -32,3 +32,8 @@ Teikyō est déjà, avant même la formalisation des standards transverses du po
 | `network.md` | Documentation technique réseau du produit réel | Source de vérité produit |
 | [`requirements/`](./requirements/README.md) | Business case, parties prenantes, glossaire, état actuel, FR/NFR atomiques — décomposition du produit réel selon la convention du portefeuille Arkestone | Issu du mono-dépôt de documentation [`Arkestone/projects`](https://github.com/Arkestone/projects) (sous-projet Teikyō) |
 | [`adr/`](./adr/README.md) | Adoption des standards transverses du portefeuille pertinents pour un outil CLI/serveur | Idem |
+
+## Frontières de portefeuille (documentées côté contreparties, actées ici le 2026-09-07)
+
+- **Shiki (console d'orchestration)** : Teikyō reste la source de **contexte statique** (instructions, skills, prompts, mémoire) des agents que Shiki orchestre — l'état d'orchestration des sessions vit dans un stockage propre à Shiki, jamais dans les stores de Teikyō (frontière validée par analyse de code : transport stateless, aucun état de session ici).
+- **Shozo (portail RAG)** : piste non tranchée — `mcp-memory`/`mcp-graph` sont un embryon léger de mémoire/graphe (recherche par sous-chaîne, pas de vectoriel) que Shozo pourrait à terme fédérer ou remplacer ; documentée côté Shozo (`Shozo/README.md`), à instruire en atelier si le besoin se confirme.
