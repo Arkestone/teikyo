@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788236794249,
+  "lastUpdate": 1788777587785,
   "repoUrl": "https://github.com/Arkestone/teikyo",
   "entries": {
     "Binary Sizes": [
@@ -2669,6 +2669,60 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Arkestone/teikyo/commit/cacb49b95b078e97eadc50d96faf57217c5d1f48"
         },
         "date": 1788236793166,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "mcp-instructions",
+            "value": 9.043,
+            "unit": "MB"
+          },
+          {
+            "name": "mcp-skills",
+            "value": 9.082,
+            "unit": "MB"
+          },
+          {
+            "name": "mcp-adr",
+            "value": 8.957,
+            "unit": "MB"
+          },
+          {
+            "name": "mcp-memory",
+            "value": 8.594,
+            "unit": "MB"
+          },
+          {
+            "name": "mcp-prompts",
+            "value": 9.078,
+            "unit": "MB"
+          },
+          {
+            "name": "mcp-graph",
+            "value": 8.223,
+            "unit": "MB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dhuard@meilleurtaux.com",
+            "name": "David HUARD",
+            "username": "dhuard-mtx"
+          },
+          "committer": {
+            "email": "dhuard@meilleurtaux.com",
+            "name": "David HUARD",
+            "username": "dhuard-mtx"
+          },
+          "distinct": true,
+          "id": "cf8eed50d667b60508c35e62f253e79dc2fdba9e",
+          "message": "docs: acter les frontières Shiki (contexte statique) et Shozo (piste mémoire/graphe)\n\nLes deux frontières n'étaient documentées que côté contreparties\n(finding M-4 de la vérification inter-projets — même classe\nd'asymétrie que le statut pilote de Shinsa corrigé précédemment).",
+          "timestamp": "2026-09-07T10:38:57Z",
+          "tree_id": "9fa01adfefc0aa4bece64a2e9677872af39218ab",
+          "url": "https://github.com/Arkestone/teikyo/commit/cf8eed50d667b60508c35e62f253e79dc2fdba9e"
+        },
+        "date": 1788777584539,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
