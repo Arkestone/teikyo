@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788236797163,
+  "lastUpdate": 1788777585964,
   "repoUrl": "https://github.com/Arkestone/teikyo",
   "entries": {
     "Test Coverage": [
@@ -1386,6 +1386,35 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Arkestone/teikyo/commit/cacb49b95b078e97eadc50d96faf57217c5d1f48"
         },
         "date": 1788236796156,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Total Coverage",
+            "value": 85.6,
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dhuard@meilleurtaux.com",
+            "name": "David HUARD",
+            "username": "dhuard-mtx"
+          },
+          "committer": {
+            "email": "dhuard@meilleurtaux.com",
+            "name": "David HUARD",
+            "username": "dhuard-mtx"
+          },
+          "distinct": true,
+          "id": "cf8eed50d667b60508c35e62f253e79dc2fdba9e",
+          "message": "docs: acter les frontières Shiki (contexte statique) et Shozo (piste mémoire/graphe)\n\nLes deux frontières n'étaient documentées que côté contreparties\n(finding M-4 de la vérification inter-projets — même classe\nd'asymétrie que le statut pilote de Shinsa corrigé précédemment).",
+          "timestamp": "2026-09-07T10:38:57Z",
+          "tree_id": "9fa01adfefc0aa4bece64a2e9677872af39218ab",
+          "url": "https://github.com/Arkestone/teikyo/commit/cf8eed50d667b60508c35e62f253e79dc2fdba9e"
+        },
+        "date": 1788777585437,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
