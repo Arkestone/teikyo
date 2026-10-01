@@ -30,7 +30,7 @@ Teikyō est déjà, avant même la formalisation des standards transverses du po
 | Dossier | Contenu | Statut |
 |---|---|---|
 | `network.md` | Documentation technique réseau du produit réel | Source de vérité produit |
-| [`requirements/`](./requirements/README.md) | Business case, parties prenantes, glossaire, état actuel, FR/NFR atomiques — décomposition du produit réel selon la convention du portefeuille Arkestone | Issu du mono-dépôt de documentation [`Arkestone/projects`](https://github.com/Arkestone/projects) (sous-projet Teikyō) |
+| [`requirements/`](./requirements/) | Business case, parties prenantes, glossaire, état actuel, FR/NFR atomiques — décomposition du produit réel selon la convention du portefeuille Arkestone | Issu du mono-dépôt de documentation [`Arkestone/projects`](https://github.com/Arkestone/projects) (sous-projet Teikyō) |
 | [`adr/`](./adr/README.md) | Adoption des standards transverses du portefeuille pertinents pour un outil CLI/serveur | Idem |
 
 ## Frontières de portefeuille (documentées côté contreparties, actées ici le 2026-09-07)
